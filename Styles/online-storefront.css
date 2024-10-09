@@ -58,20 +58,20 @@
 }
 
 /* items and services*/
-.section {
+.item-section {
     display: flex;
     justify-content: space-around;
     padding: 50px 0;
     background-color: #f9f9f9;
 }
 
-.section .items, .section .services {
+.item-section .items, .item-section .services {
     display: flex;
     justify-content: space-between;
     width: 45%;
 }
 
-.section .items img, .section .services img {
+.item-section .items img, .item-section .services img {
     max-width: 250px;
     height: auto;
     border-radius: 15%;
@@ -80,17 +80,17 @@
     filter: grayscale(100%);
 }
 
-.section .services img:hover {
+.item-section .services img:hover {
     transform:scale(1.2);
     filter: grayscale(0%);
 }
 
-.section .items img:hover {
+.item-section .items img:hover {
     transform:scale(1.2);
     filter: grayscale(0%);
 }
 
-.section .items div, .section .services div {
+.item-section .items div, .item-section .services div {
     text-align: center;
     width: 45%;
 }
