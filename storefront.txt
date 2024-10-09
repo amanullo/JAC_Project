@@ -1,0 +1,21 @@
+4. Online Storefront
+
+Objective: Design an online storefront with product listings and a shopping cart.
+
+Metadata content: Use meta tags for SEO and social media.
+
+Flow content: Include product descriptions, images, and lists.
+
+Sectioning content: Use <header>, <nav>, <main>, <section>, and <footer>.
+
+Sectioning Root: The <body> element.
+
+Heading Content: Use headings for product categories and titles.
+
+Phrasing Content: Use inline elements for product details and links.
+
+Interactive Content: Add a navigation menu and interactive product filters.
+
+Form-Related Content: Include a checkout form.
+
+Embedded content: Embed product videos and customer reviews.
