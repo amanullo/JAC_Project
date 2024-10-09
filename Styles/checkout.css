@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+#checkout-form {
+    max-width: 750px;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 13px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px; /*rounds corners*/
+    box-sizing: border-box;
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.inline-fields {
+    display: flex;
+    gap: 20px; /*space between both fields*/
+}
+
+.inline-fields div {
+    flex: 1; /*make sure equal on both sides*/
+}
+
+.icon-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+

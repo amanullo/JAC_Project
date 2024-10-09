@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .3); /* shadow */
+    margin: 20px; /* space between cards */
+    padding: 20px; /* space inside card */
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px; /* spacing inside the button */
+    border: none;
+    border-radius: 4px; /* round corners */
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background-color: #45a049;
+}

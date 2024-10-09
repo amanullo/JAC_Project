@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: lightgray;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#shop-icon {
+    position: relative;
+    top: 10px; /* lower shop icon */
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0; /* to align the contents with their headers*/
+}
+
+footer li {
+    margin-bottom: 5px; /*spacing between the content*/
+}
